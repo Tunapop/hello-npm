@@ -12,7 +12,7 @@ module.exports = function(fPath, fExtension, callback){
             if (path.extname(file) == ("."+fExtension)){
                 filtered.push(file);
             }
-        })
+        });
         callback(null, filtered);
-    })
-}
+    });
+};

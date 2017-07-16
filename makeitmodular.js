@@ -10,5 +10,5 @@ mymodule(fPath, fExtension, function(err, data){
     }
     data.forEach(function(file){
         console.log(file);
-    })
+    });
 });

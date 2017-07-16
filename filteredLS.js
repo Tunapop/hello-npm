@@ -8,7 +8,7 @@ fs.readdir(fPath, function(err, list){
         if (path.extname(file) == ("."+fExtension)){
             console.log(file);
         }
-    })
-})
+    });
+});
     
 
